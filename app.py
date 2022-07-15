@@ -9,6 +9,9 @@ class calculator:
     def subtraction(self) -> float:
         return self.a-self.b
 
+    def multiplication(self) -> float:
+        return self.a*self.b    
+
 cal = calculator(a=3,b=4)
 print(cal.addition())             
         
